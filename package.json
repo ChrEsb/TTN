@@ -9,7 +9,7 @@
     "start": "cross-env NODE_ENV=development webpack-dev-server --inline --hot --progress --mode development",
     "start:gql": "node server/GraphQL/index.js",
     "start:sql": "docker-compose up",
-    "init:sql:tables": "node src/server/mysql/CreateTables.js"
+    "init:sql:tables": "node server/mysql/CreateTables.js"
   },
   "dependencies": {
     "apollo-server": "^2.0.0-rc.0",
